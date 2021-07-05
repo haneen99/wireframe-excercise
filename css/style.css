@@ -1,7 +1,19 @@
-body{font-family: Arial, Helvetica, sans-serif;
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 background-color: rgb(202, 170, 170);
 }
-header{
+header div {
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
     border :1px salmon;
     padding: 30px;
     position:sticky;
@@ -21,4 +33,11 @@ header nav{
 nav ul li{
     display:inline-block;
     margin-left: 35px;
+}
+footer{
+    width: 100px;
+    height: 150px;
+    background-color: chocolate;
+    text-align: center;
+    padding-top:30px;
 }
